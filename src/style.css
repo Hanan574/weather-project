@@ -1,0 +1,38 @@
+h1 {
+  padding-left: 100px;
+  font-family: roboto;
+}
+h2 {
+  padding-left: 100px;
+  font-family: roboto;
+}
+p {
+  padding-left: 100px;
+  font-family: roboto;
+}
+.container {
+  padding: 50px;
+  font-family: roboto;
+}
+.searchCity {
+  position: relative;
+  padding-left: 500px;
+  font-family: roboto;
+}
+.lookUp {
+  position: relative;
+  padding-left: 550px;
+}
+.whole {
+  padding: 20px;
+  border: 1px solid saddlebrown;
+  margin: 100px;
+}
+ul {
+  list-style: none;
+  margin-left: 70px;
+  font-family: roboto;
+}
+.container {
+  margin-bottom: 100px;
+}
