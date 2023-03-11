@@ -23,24 +23,32 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-    <script src="src/app.js"></script>
+
     <title>Document</title>
   </head>
   <body>
     <div class="whole">
-      <h1>London</h1>
       <form>
-        <div class="search">
-          <input type="search" placeholder="search city" />
-        </div>
-        <div class="lookUp"><input type="submit" value="search" /></div>
-      </form>
+        <input
+          type="text"
+          placeholder="search a city..."
+          autofocus="on"
+          autocomplete="off"
+          id="search-input"
+        />
 
-      <h2>7°</h2>
-      <ul>
-        <li class="wind">precipitaion</li>
-        <li class="humidity">humidity</li>
-      </ul>
+        <input type="submit" value="search" id="value" />
+      </form>
+      <span>
+        <div class="country"></div>
+        <div class="city"></div>
+        <div class="cities"></div>
+      </span>
+
+      <div class="climate">
+        <span class="humid"></span><br />
+        <span class="windy"></span>
+      </div>
 
       <div class="container">
         <div class="row">
@@ -54,5 +62,6 @@
         </div>
       </div>
     </div>
+    <script src="src/app.js"></script>
   </body>
 </html>
